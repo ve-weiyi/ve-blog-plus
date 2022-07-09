@@ -1,0 +1,213 @@
+2022-07-08 23:45:23,781 INFO (Version.java:21)- HV000001: Hibernate Validator 6.1.6.Final
+2022-07-08 23:45:23,864 INFO (StartupInfoLogger.java:55)- Starting BlogApplication using Java 1.8.0_311 on BadMac.local with PID 39666 (/Users/weiyi/Downloads/ve-blog-plus/blog-springboot-plus/app/target/classes started by weiyi in /Users/weiyi/Downloads/ve-blog-plus)
+2022-07-08 23:45:23,866 INFO (SpringApplication.java:664)- The following profiles are active: dev,auth,msg,upload
+2022-07-08 23:45:25,419 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-08 23:45:25,421 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-07-08 23:45:25,546 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 119 ms. Found 1 Elasticsearch repository interfaces.
+2022-07-08 23:45:25,559 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-08 23:45:25,560 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-07-08 23:45:25,581 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 20 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-07-08 23:45:25,603 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-08 23:45:25,604 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-08 23:45:25,640 INFO (RepositoryConfigurationExtensionSupport.java:349)- Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ve.blog.dao.ElasticsearchDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2022-07-08 23:45:25,640 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2022-07-08 23:45:25,807 WARN (Logger.java:44)- Skipping MapperFactoryBean with name 'elasticsearchDao' and 'com.ve.blog.dao.ElasticsearchDao' mapperInterface. Bean already defined with the same name!
+2022-07-08 23:45:26,404 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-08 23:45:26,419 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$e6bd0e21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-08 23:45:26,469 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-08 23:45:26,892 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8088 (https)
+2022-07-08 23:45:26,901 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["https-jsse-nio-8088"]
+2022-07-08 23:45:26,901 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-07-08 23:45:26,902 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-08 23:45:26,994 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-07-08 23:45:26,995 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 3067 ms
+2022-07-08 23:45:27,291 INFO (HikariDataSource.java:80)- master - Starting...
+2022-07-08 23:45:27,713 INFO (HikariDataSource.java:82)- master - Start completed.
+2022-07-08 23:45:27,722 INFO (HikariDataSource.java:80)- auth - Starting...
+2022-07-08 23:45:27,768 INFO (HikariDataSource.java:82)- auth - Start completed.
+2022-07-08 23:45:27,768 INFO (DynamicRoutingDataSource.java:148)- dynamic-datasource - add a datasource named [auth] success
+2022-07-08 23:45:27,769 INFO (DynamicRoutingDataSource.java:148)- dynamic-datasource - add a datasource named [master] success
+2022-07-08 23:45:27,769 INFO (DynamicRoutingDataSource.java:228)- dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-07-08 23:45:29,241 WARN (OpenApiExtensionResolver.java:144)- (Ignores) Failed to read Markdown files,Error Message:class path resource [markdowns/] cannot be resolved to URL because it does not exist 
+2022-07-08 23:45:29,244 INFO (AutowiredAnnotationBeanPostProcessor.java:478)- Autowired annotation is not supported on static fields: public static java.lang.String com.ve.blog.config.Knife4jConfig.port
+2022-07-08 23:45:30,604 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,608 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,609 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,609 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,609 WARN (CustomConversions.java:270)- Registering converter from interface org.springframework.data.elasticsearch.core.geo.GeoJson to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,610 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to interface org.springframework.data.elasticsearch.core.geo.GeoJson as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,610 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,610 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,610 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,611 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,611 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,611 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,611 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,611 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,612 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,612 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,612 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,612 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,612 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,612 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:45:30,678 INFO (VersionInfo.java:62)- Version Spring Data Elasticsearch: 4.1.2
+2022-07-08 23:45:30,680 INFO (VersionInfo.java:63)- Version Elasticsearch Client in build: 7.9.3
+2022-07-08 23:45:30,681 INFO (VersionInfo.java:64)- Version Elasticsearch Client used: 7.9.3
+2022-07-08 23:45:30,804 WARN (SimpleElasticsearchRepository.java:96)- Cannot create index: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+2022-07-08 23:45:31,815 INFO (WebMvcPropertySourcedRequestMappingHandlerMapping.java:69)- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-08 23:45:31,980 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/login'] with []
+2022-07-08 23:45:31,981 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/logout'] with []
+2022-07-08 23:45:31,981 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/register'] with []
+2022-07-08 23:45:31,981 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/ws/**'] with []
+2022-07-08 23:45:31,981 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/static/**'] with []
+2022-07-08 23:45:31,981 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/css/**'] with []
+2022-07-08 23:45:31,982 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/js/**'] with []
+2022-07-08 23:45:31,982 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/index.html'] with []
+2022-07-08 23:45:31,982 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/favicon.ico'] with []
+2022-07-08 23:45:31,982 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/doc.html'] with []
+2022-07-08 23:45:31,982 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/webjars/**'] with []
+2022-07-08 23:45:31,982 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/swagger-resources/**'] with []
+2022-07-08 23:45:31,982 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/v2/api-docs/**'] with []
+2022-07-08 23:45:31,982 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/captcha'] with []
+2022-07-08 23:45:31,983 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/hello'] with []
+2022-07-08 23:45:31,983 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/public/**'] with []
+2022-07-08 23:45:32,066 INFO (DefaultSecurityFilterChain.java:51)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@759f45f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@215c6ec0, org.springframework.security.web.header.HeaderWriterFilter@5d4a34ff, org.springframework.security.web.authentication.logout.LogoutFilter@f6bc75c, com.ve.blog.handler.JwtAuthenticationTokenFilter@749baa0c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@22854f2b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37c5b8e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b240276, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2573b149, org.springframework.security.web.session.SessionManagementFilter@1ef04613, org.springframework.security.web.access.ExceptionTranslationFilter@46748b04, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@838e109]
+2022-07-08 23:45:32,292 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-08 23:45:32,668 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'taskScheduler'
+2022-07-08 23:45:32,841 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["https-jsse-nio-8088"]
+2022-07-08 23:45:32,888 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8088 (https) with context path '/blog/api'
+2022-07-08 23:45:32,890 INFO (DocumentationPluginsBootstrapper.java:93)- Documentation plugins bootstrapped
+2022-07-08 23:45:32,893 INFO (AbstractDocumentationPluginsBootstrapper.java:79)- Found 1 custom documentation plugin(s)
+2022-07-08 23:45:32,974 INFO (ApiListingReferenceScanner.java:44)- Scanning for api listing references
+2022-07-08 23:45:33,584 INFO (CachingOperationNameGenerator.java:41)- Generating unique operation named: savePhotoAlbumCoverUsingPOST_1
+2022-07-08 23:45:33,813 INFO (AbstractConnectionFactory.java:636)- Attempting to connect to: [localhost:5672]
+2022-07-08 23:45:33,873 INFO (AbstractConnectionFactory.java:589)- Created new connection: rabbitConnectionFactory#3eec8583:0/SimpleConnection@7602c65d [delegate=amqp://guest@127.0.0.1:5672/, localPort= 64651]
+2022-07-08 23:45:33,967 INFO (StartupInfoLogger.java:61)- Started BlogApplication in 10.783 seconds (JVM running for 11.517)
+2022-07-08 23:57:23,424 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-08 23:57:23,428 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2022-07-08 23:57:23,440 INFO (FrameworkServlet.java:547)- Completed initialization in 12 ms
+2022-07-08 23:57:23,468 INFO (LogUtil.java:32)- doFilterInternal(JwtAuthenticationTokenFilter.java:52) -->> 1.jwt拦截!
+2022-07-08 23:57:23,469 INFO (LogUtil.java:32)- doFilterInternal(JwtAuthenticationTokenFilter.java:78) -->> 无令牌或令牌格式不正确-->null
+2022-07-08 23:57:23,479 INFO (LogUtil.java:32)- getAttributes(FilterInvocationSecurityMetadataSourceImpl.java:60) -->> 2.分析url需要的角色!
+2022-07-08 23:57:23,480 INFO (LogUtil.java:32)- getAttributes(FilterInvocationSecurityMetadataSourceImpl.java:85) -->> 未匹配的 url ，设置默认角色：游客
+2022-07-08 23:57:28,972 INFO (LogUtil.java:32)- doFilterInternal(JwtAuthenticationTokenFilter.java:52) -->> 1.jwt拦截!
+2022-07-08 23:57:28,974 INFO (LogUtil.java:32)- doFilterInternal(JwtAuthenticationTokenFilter.java:78) -->> 无令牌或令牌格式不正确-->null
+2022-07-08 23:57:29,236 INFO (LogUtil.java:32)- login(UserAuthServiceImpl.java:199) -->> 用户名：admin@qq.com
+2022-07-08 23:57:29,238 INFO (LogUtil.java:32)- login(UserAuthServiceImpl.java:200) -->> 密码：1234567
+2022-07-08 23:57:30,013 INFO (LogUtil.java:32)- doFilterInternal(JwtAuthenticationTokenFilter.java:52) -->> 1.jwt拦截!
+2022-07-08 23:57:30,016 INFO (LogUtil.java:32)- doFilterInternal(JwtAuthenticationTokenFilter.java:78) -->> 无令牌或令牌格式不正确-->null
+2022-07-08 23:57:30,016 INFO (LogUtil.java:32)- getAttributes(FilterInvocationSecurityMetadataSourceImpl.java:60) -->> 2.分析url需要的角色!
+2022-07-08 23:57:30,016 INFO (LogUtil.java:32)- getAttributes(FilterInvocationSecurityMetadataSourceImpl.java:85) -->> 未匹配的 url ，设置默认角色：游客
+2022-07-08 23:57:30,053 INFO (LogUtil.java:32)- exceptionHandler(GlobalExceptionHandler.java:54) -->> GET
+2022-07-08 23:57:30,054 INFO (LogUtil.java:32)- exceptionHandler(GlobalExceptionHandler.java:55) -->> /blog/api
+2022-07-08 23:57:30,054 INFO (LogUtil.java:32)- exceptionHandler(GlobalExceptionHandler.java:56) -->> localhost
+2022-07-08 23:57:53,466 INFO (LogUtil.java:32)- doFilterInternal(JwtAuthenticationTokenFilter.java:52) -->> 1.jwt拦截!
+2022-07-08 23:57:53,467 INFO (LogUtil.java:32)- doFilterInternal(JwtAuthenticationTokenFilter.java:78) -->> 无令牌或令牌格式不正确-->null
+2022-07-08 23:57:53,475 INFO (LogUtil.java:32)- login(UserAuthServiceImpl.java:199) -->> 用户名：admin@qq.com
+2022-07-08 23:57:53,478 INFO (LogUtil.java:32)- login(UserAuthServiceImpl.java:200) -->> 密码：1234567
+2022-07-08 23:57:53,795 INFO (LogUtil.java:32)- doFilterInternal(JwtAuthenticationTokenFilter.java:52) -->> 1.jwt拦截!
+2022-07-08 23:57:53,798 INFO (LogUtil.java:32)- doFilterInternal(JwtAuthenticationTokenFilter.java:78) -->> 无令牌或令牌格式不正确-->null
+2022-07-08 23:57:53,799 INFO (LogUtil.java:32)- getAttributes(FilterInvocationSecurityMetadataSourceImpl.java:60) -->> 2.分析url需要的角色!
+2022-07-08 23:57:53,799 INFO (LogUtil.java:32)- getAttributes(FilterInvocationSecurityMetadataSourceImpl.java:85) -->> 未匹配的 url ，设置默认角色：游客
+2022-07-08 23:57:53,807 INFO (LogUtil.java:32)- exceptionHandler(GlobalExceptionHandler.java:54) -->> GET
+2022-07-08 23:57:53,808 INFO (LogUtil.java:32)- exceptionHandler(GlobalExceptionHandler.java:55) -->> /blog/api
+2022-07-08 23:57:53,808 INFO (LogUtil.java:32)- exceptionHandler(GlobalExceptionHandler.java:56) -->> localhost
+2022-07-08 23:59:02,765 INFO (SimpleMessageListenerContainer.java:634)- Waiting for workers to finish.
+2022-07-08 23:59:03,133 INFO (SimpleMessageListenerContainer.java:637)- Successfully waited for workers to finish.
+2022-07-08 23:59:03,139 INFO (SimpleMessageListenerContainer.java:634)- Waiting for workers to finish.
+2022-07-08 23:59:04,109 INFO (SimpleMessageListenerContainer.java:637)- Successfully waited for workers to finish.
+2022-07-08 23:59:04,169 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'taskScheduler'
+2022-07-08 23:59:04,172 INFO (AbstractMessageListenerContainer.java:1284)- Shutdown ignored - container is not active already
+2022-07-08 23:59:04,172 INFO (AbstractMessageListenerContainer.java:1284)- Shutdown ignored - container is not active already
+2022-07-08 23:59:04,172 INFO (ExecutorConfigurationSupport.java:218)- Shutting down ExecutorService 'applicationTaskExecutor'
+2022-07-08 23:59:04,353 INFO (DynamicRoutingDataSource.java:205)- dynamic-datasource start closing ....
+2022-07-08 23:59:04,357 INFO (HikariDataSource.java:350)- auth - Shutdown initiated...
+2022-07-08 23:59:04,386 INFO (HikariDataSource.java:352)- auth - Shutdown completed.
+2022-07-08 23:59:04,388 INFO (HikariDataSource.java:350)- master - Shutdown initiated...
+2022-07-08 23:59:04,404 INFO (HikariDataSource.java:352)- master - Shutdown completed.
+2022-07-08 23:59:04,405 INFO (DynamicRoutingDataSource.java:209)- dynamic-datasource all closed success,bye
+2022-07-08 23:59:17,961 INFO (Version.java:21)- HV000001: Hibernate Validator 6.1.6.Final
+2022-07-08 23:59:18,041 INFO (StartupInfoLogger.java:55)- Starting BlogApplication using Java 1.8.0_311 on BadMac.local with PID 43393 (/Users/weiyi/Downloads/ve-blog-plus/blog-springboot-plus/app/target/classes started by weiyi in /Users/weiyi/Downloads/ve-blog-plus)
+2022-07-08 23:59:18,043 INFO (SpringApplication.java:664)- The following profiles are active: dev,auth,msg,upload
+2022-07-08 23:59:19,554 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-08 23:59:19,556 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Elasticsearch repositories in DEFAULT mode.
+2022-07-08 23:59:19,678 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 117 ms. Found 1 Elasticsearch repository interfaces.
+2022-07-08 23:59:19,692 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-08 23:59:19,693 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Reactive Elasticsearch repositories in DEFAULT mode.
+2022-07-08 23:59:19,718 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 25 ms. Found 0 Reactive Elasticsearch repository interfaces.
+2022-07-08 23:59:19,740 INFO (RepositoryConfigurationDelegate.java:250)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-07-08 23:59:19,741 INFO (RepositoryConfigurationDelegate.java:128)- Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2022-07-08 23:59:19,780 INFO (RepositoryConfigurationExtensionSupport.java:349)- Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.ve.blog.dao.ElasticsearchDao. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+2022-07-08 23:59:19,781 INFO (RepositoryConfigurationDelegate.java:188)- Finished Spring Data repository scanning in 27 ms. Found 0 Redis repository interfaces.
+2022-07-08 23:59:19,950 WARN (Logger.java:44)- Skipping MapperFactoryBean with name 'elasticsearchDao' and 'com.ve.blog.dao.ElasticsearchDao' mapperInterface. Bean already defined with the same name!
+2022-07-08 23:59:20,509 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'spring.datasource.dynamic-com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-08 23:59:20,526 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration' of type [com.baomidou.dynamic.datasource.spring.boot.autoconfigure.DynamicDataSourceAutoConfiguration$$EnhancerBySpringCGLIB$$5d7e4433] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-08 23:59:20,573 INFO (PostProcessorRegistrationDelegate.java:350)- Bean 'dsProcessor' of type [com.baomidou.dynamic.datasource.processor.DsHeaderProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-07-08 23:59:20,946 INFO (TomcatWebServer.java:108)- Tomcat initialized with port(s): 8088 (https)
+2022-07-08 23:59:20,954 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["https-jsse-nio-8088"]
+2022-07-08 23:59:20,956 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2022-07-08 23:59:20,956 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-08 23:59:21,048 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2022-07-08 23:59:21,048 INFO (ServletWebServerApplicationContext.java:289)- Root WebApplicationContext: initialization completed in 2947 ms
+2022-07-08 23:59:21,344 INFO (HikariDataSource.java:80)- master - Starting...
+2022-07-08 23:59:21,735 INFO (HikariDataSource.java:82)- master - Start completed.
+2022-07-08 23:59:21,744 INFO (HikariDataSource.java:80)- auth - Starting...
+2022-07-08 23:59:21,789 INFO (HikariDataSource.java:82)- auth - Start completed.
+2022-07-08 23:59:21,789 INFO (DynamicRoutingDataSource.java:148)- dynamic-datasource - add a datasource named [auth] success
+2022-07-08 23:59:21,790 INFO (DynamicRoutingDataSource.java:148)- dynamic-datasource - add a datasource named [master] success
+2022-07-08 23:59:21,790 INFO (DynamicRoutingDataSource.java:228)- dynamic-datasource initial loaded [2] datasource,primary datasource named [master]
+2022-07-08 23:59:23,278 WARN (OpenApiExtensionResolver.java:144)- (Ignores) Failed to read Markdown files,Error Message:class path resource [markdowns/] cannot be resolved to URL because it does not exist 
+2022-07-08 23:59:23,280 INFO (AutowiredAnnotationBeanPostProcessor.java:478)- Autowired annotation is not supported on static fields: public static java.lang.String com.ve.blog.config.Knife4jConfig.port
+2022-07-08 23:59:24,664 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.geo.Point to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,667 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.geo.Point as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,668 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,668 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,669 WARN (CustomConversions.java:270)- Registering converter from interface org.springframework.data.elasticsearch.core.geo.GeoJson to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,669 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to interface org.springframework.data.elasticsearch.core.geo.GeoJson as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,669 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,669 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,670 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,670 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPoint as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,670 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,670 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,670 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,670 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiLineString as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,670 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,671 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,671 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,671 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonMultiPolygon as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,671 WARN (CustomConversions.java:270)- Registering converter from class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection to interface java.util.Map as writing converter although it doesn't convert to a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,671 WARN (CustomConversions.java:260)- Registering converter from interface java.util.Map to class org.springframework.data.elasticsearch.core.geo.GeoJsonGeometryCollection as reading converter although it doesn't convert from a store-supported type! You might want to check your annotation setup at the converter implementation.
+2022-07-08 23:59:24,745 INFO (VersionInfo.java:62)- Version Spring Data Elasticsearch: 4.1.2
+2022-07-08 23:59:24,747 INFO (VersionInfo.java:63)- Version Elasticsearch Client in build: 7.9.3
+2022-07-08 23:59:24,748 INFO (VersionInfo.java:64)- Version Elasticsearch Client used: 7.9.3
+2022-07-08 23:59:24,866 WARN (SimpleElasticsearchRepository.java:96)- Cannot create index: Connection refused; nested exception is java.lang.RuntimeException: Connection refused
+2022-07-08 23:59:25,878 INFO (WebMvcPropertySourcedRequestMappingHandlerMapping.java:69)- Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+2022-07-08 23:59:26,015 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/login'] with []
+2022-07-08 23:59:26,016 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/logout'] with []
+2022-07-08 23:59:26,016 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/register'] with []
+2022-07-08 23:59:26,016 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/ws/**'] with []
+2022-07-08 23:59:26,016 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/static/**'] with []
+2022-07-08 23:59:26,016 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/css/**'] with []
+2022-07-08 23:59:26,017 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/js/**'] with []
+2022-07-08 23:59:26,017 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/index.html'] with []
+2022-07-08 23:59:26,017 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/favicon.ico'] with []
+2022-07-08 23:59:26,017 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/doc.html'] with []
+2022-07-08 23:59:26,017 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/webjars/**'] with []
+2022-07-08 23:59:26,017 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/swagger-resources/**'] with []
+2022-07-08 23:59:26,017 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/v2/api-docs/**'] with []
+2022-07-08 23:59:26,018 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/captcha'] with []
+2022-07-08 23:59:26,018 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/hello'] with []
+2022-07-08 23:59:26,018 INFO (DefaultSecurityFilterChain.java:51)- Will secure Ant [pattern='/public/**'] with []
+2022-07-08 23:59:26,090 INFO (DefaultSecurityFilterChain.java:51)- Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@759f45f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@215c6ec0, org.springframework.security.web.header.HeaderWriterFilter@5d4a34ff, org.springframework.security.web.authentication.logout.LogoutFilter@f6bc75c, com.ve.blog.handler.JwtAuthenticationTokenFilter@53f7a906, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@22854f2b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@37c5b8e8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b240276, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2573b149, org.springframework.security.web.session.SessionManagementFilter@1ef04613, org.springframework.security.web.access.ExceptionTranslationFilter@46748b04, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@838e109]
+2022-07-08 23:59:26,276 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-08 23:59:26,637 INFO (ExecutorConfigurationSupport.java:181)- Initializing ExecutorService 'taskScheduler'
+2022-07-08 23:59:26,806 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["https-jsse-nio-8088"]
+2022-07-08 23:59:26,852 INFO (TomcatWebServer.java:220)- Tomcat started on port(s): 8088 (https) with context path '/blog/api'
+2022-07-08 23:59:26,854 INFO (DocumentationPluginsBootstrapper.java:93)- Documentation plugins bootstrapped
+2022-07-08 23:59:26,857 INFO (AbstractDocumentationPluginsBootstrapper.java:79)- Found 1 custom documentation plugin(s)
+2022-07-08 23:59:26,936 INFO (ApiListingReferenceScanner.java:44)- Scanning for api listing references
+2022-07-08 23:59:27,543 INFO (CachingOperationNameGenerator.java:41)- Generating unique operation named: savePhotoAlbumCoverUsingPOST_1
+2022-07-08 23:59:27,784 INFO (AbstractConnectionFactory.java:636)- Attempting to connect to: [localhost:5672]
+2022-07-08 23:59:27,833 INFO (AbstractConnectionFactory.java:589)- Created new connection: rabbitConnectionFactory#343db2f6:0/SimpleConnection@31a80c88 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 49539]
+2022-07-08 23:59:27,926 INFO (StartupInfoLogger.java:61)- Started BlogApplication in 10.557 seconds (JVM running for 11.245)
